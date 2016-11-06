@@ -31,7 +31,6 @@ public class LibrarianWelcome extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
         jRadioButton4 = new javax.swing.JRadioButton();
         jRadioButton5 = new javax.swing.JRadioButton();
         jButton2 = new javax.swing.JButton();
@@ -58,9 +57,7 @@ public class LibrarianWelcome extends javax.swing.JFrame {
             }
         });
 
-        jRadioButton3.setText("      Return Book");
-
-        jRadioButton4.setText("      Pay Fine");
+        jRadioButton4.setText("      Return / Pay Fine");
 
         jRadioButton5.setText("     Change Password");
 
@@ -85,7 +82,6 @@ public class LibrarianWelcome extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jRadioButton2)
                             .addComponent(jRadioButton1)
-                            .addComponent(jRadioButton3)
                             .addComponent(jRadioButton4)
                             .addComponent(jRadioButton5))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -107,13 +103,11 @@ public class LibrarianWelcome extends javax.swing.JFrame {
                 .addComponent(jRadioButton1)
                 .addGap(42, 42, 42)
                 .addComponent(jRadioButton2)
-                .addGap(43, 43, 43)
-                .addComponent(jRadioButton3)
-                .addGap(46, 46, 46)
-                .addComponent(jRadioButton4)
                 .addGap(44, 44, 44)
+                .addComponent(jRadioButton4)
+                .addGap(46, 46, 46)
                 .addComponent(jRadioButton5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -173,7 +167,6 @@ public class LibrarianWelcome extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JRadioButton jRadioButton4;
     private javax.swing.JRadioButton jRadioButton5;
     // End of variables declaration//GEN-END:variables
